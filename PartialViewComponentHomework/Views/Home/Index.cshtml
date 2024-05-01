@@ -1,0 +1,14 @@
+﻿@{
+	ViewData["Title"] = "Home Page";
+}
+
+<main>
+	<section>
+		@* @await Html.PartialAsync("~/Views/Home/IndexPartialViews/IndexBanner.cshtml") *@
+		<partial name="~/Views/Home/IndexPartialViews/IndexBanner.cshtml"></partial>
+	</section>
+	<section>
+		@* @await Html.PartialAsync("~/Views/Home/IndexPartialViews/IndexForAdults.cshtml") *@
+		<partial name="~/Views/Home/IndexPartialViews/IndexForAdults.cshtml"></partial>
+	</section>
+</main>

@@ -1,0 +1,227 @@
+
+a {
+    text-decoration: none;
+    cursor: pointer;
+    font-family: Inter, sans-serif !important;
+}
+
+body {
+    width: auto;
+    background-color: black;
+}
+
+.banner {
+    width: 100%;
+    height: 655px;
+    background-image: url("https://itstep.az/dist/images/home/redesign/banner-l@2x.webp");
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+
+.banner-content {
+    z-index: 2;
+    display: flex;
+    flex-direction: column;
+    position: absolute;
+    top: 200px;
+    left: 9%;
+}
+
+.banner-title {
+    font-family: Inter, sans-serif;
+    color: #1d1d1f;
+    font-weight: 700;
+    font-size: 64px;
+    line-height: 77px;
+    margin-bottom: 25px;
+}
+
+.banner-subtitle {
+    width: 50%;
+    font-family: Inter, sans-serif;
+    color: #1d1d1f;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 28px;
+}
+
+.custom-header {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    font-family: Inter, sans-serif;
+    position: fixed;
+    top: 0;
+    height: 53px;
+    z-index: 10000;
+    background-color: #1d1d1f !important;
+    transition: all .5s ease !important;
+    border: none !important;
+}
+
+.header-logo {
+    position: sticky;
+    height: 85px;
+}
+
+.header-nav-bar {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 10px;
+}
+
+    .header-nav-bar a {
+        font-size: 18px;
+        line-height: 15px;
+        font-weight: 700;
+        color: #fff;
+        cursor: pointer;
+        height: 100%;
+        display: flex;
+        align-items: center;
+    }
+
+.header-contact-langugage {
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+    align-items: center;
+    color: white;
+    margin-left: 800px;
+}
+
+.contact-number {
+    display: flex;
+    padding: 5px 8px 5px 8px;
+    background: #3963ff;
+    border-radius: 4px;
+    font-weight: 500;
+    font-size: 12px;
+    line-height: 14px;
+}
+
+
+.for-adults-container {
+    color: white;
+    display: flex;
+    font-family: inherit;
+    flex-direction: column;
+    height: 700px;
+}
+
+.lessons-nav-links {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    width: 100%;
+    gap: 50px;
+    margin-top: 50px;
+}
+
+    .lessons-nav-links a {
+        background: linear-gradient(0deg, #17181c, #17181c), linear-gradient(145.31deg, #ffcf54, #a63200) !important;
+        border-radius: 50px;
+        cursor: pointer;
+    }
+
+        .lessons-nav-links a div {
+            z-index: 9999;
+            display: flex;
+            flex-direction: column;
+            width: 416px;
+            height: 360px;
+            font-family: inherit;
+            background-size: cover;
+            border-radius: 50px;
+            background-repeat: no-repeat;
+        }
+
+            .lessons-nav-links a div h1 {
+                padding-left: 20px;
+                font-weight: 700;
+                font-size: 28px;
+                font-family: inherit;
+            }
+
+            .lessons-nav-links a div h2 {
+                padding-left: 20px;
+                font-family: inherit;
+            }
+
+.design-link-div {
+    background-image: url("https://fsx3.itstep.org/api/v1/files/dxroz0QV1nGijRi3LtIew_H4x4vd80En?inline=true&f=webp") !important;
+}
+
+.programming-link-div {
+    background-image: url("https://fsx3.itstep.org/api/v1/files/OXbyEb86yOm_7xv-4Z4_3XEAVQspxXVz?inline=true&f=webp") !important;
+}
+
+.cyber-security-link-div {
+    background-image: url("https://fsx3.itstep.org/api/v1/files/bJ5N4D676_yqrft9QSKGPVdqgHreRmla?inline=true&f=webp") !important;
+}
+
+.for-adults-h1 {
+    margin-top: 80px;
+    padding-left: 270px;
+    font-weight: 700;
+    font-size: 48px;
+    line-height: 58px;
+    font-family: Inter, sans-serif !important;
+}
+
+footer {
+    border-top:1px groove gray;
+    padding-left:270px;
+}
+
+.info-div {
+    display: flex;
+    flex-direction: column;
+    color: white;
+    font-family: inherit;
+}
+
+.first-part {
+    display: flex;
+    flex-direction: row;
+    gap: 100px;
+}
+
+.nav-div {
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+}
+
+    .nav-div nav {
+        display: flex;
+        flex-direction: column;
+        gap: 5px;
+    }
+    .nav-div h3{
+        font-family: inherit;
+        color: white;
+    }
+    .nav-div a {
+        font-family: inherit;
+        color: #838485;
+    }
+
+.second-part {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-top:20px;
+    border-top: 1px solid rgba(221, 224, 235, .25);
+}
+
+    .second-part p {
+        font-size: 12px;
+        line-height: 15px;
+        color: hsla(0, 0%, 100%, .75);
+        margin-right: 36px;
+        font-family:inherit;
+    }
